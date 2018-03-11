@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 100px auto;
+}
+
+div {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	border-radius: 50%;
+	transition: all 10s;
+}
+
+.div1 {
+	background: -webkit-radial-gradient(#fff, #a8e6cf);
+	animation: 12s size infinite alternate;
+	z-index: 4;
+}
+
+.div2 {
+	background: -webkit-radial-gradient(#fff, #ffd3b6);
+	animation: size 11s infinite alternate;
+	z-index: 1;
+}
+
+.div3 {
+	background: -webkit-radial-gradient(#fff, #dcedc1);
+	animation: size 9s infinite alternate;
+	z-index: 3;
+}
+
+.div4 {
+	 background: -webkit-radial-gradient(#fff, #6e7f80);
+	 animation: size 7s infinite alternate;
+	 z-index: 6;
+}
+
+.div5 {
+	background: -webkit-radial-gradient(#fff, #c39797);
+	animation: size 5s infinite alternate;
+	z-index: 2;
+}
+
+.div6 {
+	background: -webkit-radial-gradient(#fff, #fef65b);
+	animation: size 6s infinite alternate;
+	z-index: 3;
+}
+
+.div7 {
+	background: -webkit-radial-gradient(#fff, #c9a76a);
+	animation: size 10s infinite alternate;
+	z-index: 7;
+}
+
+.div8 {
+	background: -webkit-radial-gradient(#fff, #5e8c42);
+	animation: size 10s infinite alternate;
+	z-index: 1;
+}
+
+.div9 {
+	background: -webkit-radial-gradient(#fff, #cc9bdf);
+	animation: size 6s infinite alternate;
+	z-index: 3;
+}
+
+.div10 {
+	background: -webkit-radial-gradient(#fff, #dbc29a);
+	animation: size 3s infinite alternate;
+	z-index: 2;
+}
+
+.div11 {
+	background: -webkit-radial-gradient(#fff, #9dc4b0);
+	animation: size 7s infinite alternate;
+	z-index: 5;
+}
+
+.div12 {
+	background: -webkit-radial-gradient(#fff, #f3b84f);
+	animation: size 10s infinite alternate;
+	z-index: 3;
+}
+
+.div13 {
+	background: -webkit-radial-gradient(#fff, #96f2be);
+	animation: size 6s infinite alternate;
+	z-index: 6;
+}
+
+.div14 {
+	background: -webkit-radial-gradient(#fff, #fadaed);
+	animation: size 9s infinite alternate;
+	z-index: 4;
+}
+
+.div15 {
+	background: -webkit-radial-gradient(#fff, #e6cd72);
+	animation: size 4s infinite alternate;
+	z-index: 6;
+}
+
+.div16 {
+	background: -webkit-radial-gradient(#fff, #b0d571);
+	animation: size 8s infinite alternate;
+	z-index: 7;
+}
+
+.div17 {
+	background: -webkit-radial-gradient(#fff, #b39094);
+	animation: size 12s infinite alternate;
+	z-index: 1;
+}
+
+.div18 {
+	background: -webkit-radial-gradient(#fff, #aec475);
+	animation: size 4s infinite alternate;
+	z-index: 2;
+}
+
+.div19 {
+	background: -webkit-radial-gradient(#fff, #8c9063);
+	animation: size 7s infinite alternate;
+	z-index: 5;
+}
+
+.div20 {
+	background: -webkit-radial-gradient(#fff, #c2c6db);
+	animation: size 3s infinite alternate;
+	z-index: 3;
+}
+
+@keyframes size {
+	0% {
+		width:50px;
+		height:50px;
+	}
+
+	100% {
+		width: 200px;
+		height: 200px;
+	}
+}
